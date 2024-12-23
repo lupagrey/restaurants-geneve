@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurants de Genève</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Les Meilleurs Restaurants de Genève</h1>
+        <div class="filters">
+            <select id="price-filter">
+                <option value="all">Tous les prix</option>
+                <option value="€">€ (< 30 CHF)</option>
+                <option value="€€">€€ (30-60 CHF)</option>
+                <option value="€€€">€€€ (> 60 CHF)</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <article class="restaurant" data-price="€€€">
+            <div class="restaurant-header">
+                <div class="restaurant-info">
+                    <h2>1. Café des Arts ⭐⭐⭐⭐⭐ (4.8/5)</h2>
+                    <div class="price-tag">€€€</div>
+                </div>
+            </div>
+            
+            <div class="image-gallery">
+                <img src="/api/placeholder/400/300" alt="Plat signature - Filet de bœuf aux morilles" class="signature-dish">
+            </div>
+
+            <p class="description">Une institution genevoise offrant une cuisine raffinée dans un cadre historique. Les plats sont préparés avec des produits locaux et de saison.</p>
+            
+            <div class="menu-du-jour">
+                <h3>Menu du jour - 48 CHF</h3>
+                <p>Velouté de potimarron aux châtaignes<br>
+                Suprême de volaille, sauce aux morilles<br>
+                Tarte Tatin, glace vanille</p>
+            </div>
+
+            <div class="hours">
+                <h3>Horaires :</h3>
+                <p>Lundi - Vendredi : 11h30 - 14h30 | 18h30 - 22h30<br>
+                Samedi : 18h30 - 23h00<br>
+                Dimanche : Fermé</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tripadvisor"></i></a>
+            </div>
+        </article>
+
+        <article class="restaurant" data-price="€€€">
+            <div class="restaurant-header">
+                <div class="restaurant-info">
+                    <h2>2. L'Auberge du Lion d'Or ⭐⭐⭐⭐½ (4.6/5)</h2>
+                    <div class="price-tag">€€€</div>
+                </div>
+            </div>
+
+            <div class="image-gallery">
+                <img src="/api/placeholder/400/300" alt="Plat signature - Filets de perche du Léman" class="signature-dish">
+            </div>
+
+            <p class="description">Vue imprenable sur le lac et cuisine française traditionnelle revisitée. Service impeccable et carte des vins exceptionnelle.</p>
+            
+            <div class="menu-du-jour">
+                <h3>Menu du jour - 45 CHF</h3>
+                <p>Salade de chèvre chaud au miel<br>
+                Filets de perche, pommes vapeur<br>
+                Crème brûlée à la vanille</p>
+            </div>
+
+            <div class="hours">
+                <h3>Horaires :</h3>
+                <p>Mardi - Samedi : 12h00 - 14h00 | 19h00 - 22h00<br>
+                Dimanche - Lundi : Fermé</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tripadvisor"></i></a>
+            </div>
+        </article>
+
+        <article class="restaurant" data-price="€€">
+            <div class="restaurant-header">
+                <div class="restaurant-info">
+                    <h2>3. Izumi ⭐⭐⭐⭐ (4.4/5)</h2>
+                    <div class="price-tag">€€</div>
+                </div>
+            </div>
+
+            <div class="image-gallery">
+                <img src="/api/placeholder/400/300" alt="Plat signature - Sushi Dragon Roll" class="signature-dish">
+            </div>
+
+            <p class="description">Fusion japonaise moderne dans un cadre élégant. Sushis créatifs et plats chauds innovants.</p>
+            
+            <div class="menu-du-jour">
+                <h3>Menu du jour - 35 CHF</h3>
+                <p>Soupe miso<br>
+                Bento mix (sushi, tempura, salade)<br>
+                Mochi glacé</p>
+            </div>
+
+            <div class="hours">
+                <h3>Horaires :</h3>
+                <p>Lundi - Samedi : 12h00 - 14h30 | 18h30 - 22h30<br>
+                Dimanche : Fermé</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tripadvisor"></i></a>
+            </div>
+        </article>
+
+        <article class="restaurant" data-price="€€">
+            <div class="restaurant-header">
+                <div class="restaurant-info">
+                    <h2>4. La Bottega ⭐⭐⭐⭐ (4.3/5)</h2>
+                    <div class="price-tag">€€</div>
+                </div>
+            </div>
+
+            <div class="image-gallery">
+                <img src="/api/placeholder/400/300" alt="Plat signature - Pasta al Tartufo" class="signature-dish">
+            </div>
+
+            <p class="description">Authentique cuisine italienne dans une ambiance chaleureuse. Pâtes fraîches maison et excellente sélection de vins italiens.</p>
+            
+            <div class="menu-du-jour">
+                <h3>Menu du jour - 32 CHF</h3>
+                <p>Bruschetta aux tomates<br>
+                Pasta al ragù<br>
+                Tiramisu</p>
+            </div>
+
+            <div class="hours">
+                <h3>Horaires :</h3>
+                <p>Mardi - Samedi : 11h30 - 14h30 | 18h30 - 22h00<br>
+                Dimanche - Lundi : Fermé</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tripadvisor"></i></a>
+            </div>
+        </article>
+
+        <article class="restaurant" data-price="€">
+            <div class="restaurant-header">
+                <div class="restaurant-info">
+                    <h2>5. Le Bistrot des Voisins ⭐⭐⭐⭐ (4.2/5)</h2>
+                    <div class="price-tag">€</div>
+                </div>
+            </div>
+
+            <div class="image-gallery">
+                <img src="/api/placeholder/400/300" alt="Plat signature - Steak-frites maison" class="signature-dish">
+            </div>
+
+            <p class="description">Bistrot convivial proposant une cuisine du marché. Ambiance décontractée et prix raisonnables.</p>
+            
+            <div class="menu-du-jour">
+                <h3>Menu du jour - 25 CHF</h3>
+                <p>Salade verte<br>
+                Steak-frites, sauce café de Paris<br>
+                Mousse au chocolat</p>
+            </div>
+
+            <div class="hours">
+                <h3>Horaires :</h3>
+                <p>Lundi - Vendredi : 11h30 - 15h00 | 18h30 - 22h00<br>
+                Samedi : 18h30 - 22h30<br>
+                Dimanche : Fermé</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tripadvisor"></i></a>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2024 Restaurants Genève - Mis à jour le 23 décembre 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
